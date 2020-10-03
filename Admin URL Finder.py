@@ -181,6 +181,12 @@ try:
                 var2 = var2
             elif response.status == 302:
                 print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
@@ -203,12 +209,18 @@ try:
             var2 = var2 + 1
             if response.status == 200:
                 var1 = var1 + 1
-                print "%s %s" % ( "\n\n>>>" + host, "Admin page found!")
+                print "%s %s" % ( "\n\n>>>" + host, "Yhaa!Admin page found!")
                 raw_input("Press enter to continue scanning.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Possible admin page (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. Unlike 401, the client's identity is known to the server. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
@@ -230,12 +242,18 @@ try:
             var2 = var2 + 1
             if response.status == 200:
                 var1 = var1 + 1
-                print "%s %s" % ( "\n\n>>>" + host, "Admin page found!")
+                print "%s %s" % ( "\n\n>>>" + host, "Yhaa!Admin page found!")
                 raw_input("Press enter to continue scanning.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Possible admin page (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
@@ -257,12 +275,18 @@ try:
             var2 = var2 + 1
             if response.status == 200:
                 var1 = var1 + 1
-                print "%s %s" % ( "\n\n>>>" + host, "Admin page found!")
+                print "%s %s" % ( "\n\n>>>" + host, "Yhaa!Admin page found!")
                 raw_input("Press enter to continue scanning.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Possible admin page (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
@@ -284,12 +308,18 @@ try:
             var2 = var2 + 1
             if response.status == 200:
                 var1 = var1 + 1
-                print "%s %s" % ( "\n\n>>>" + host, "Admin page found!")
+                print "%s %s" % ( "\n\n>>>" + host, "Yhaa!Admin page found!")
                 raw_input("Press enter to continue scanning.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Possible admin page (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
@@ -311,12 +341,18 @@ try:
             var2 = var2 + 1
             if response.status == 200:
                 var1 = var1 + 1
-                print "%s %s" % ( "\n\n>>>" + host, "Admin page found!")
+                print "%s %s" % ( "\n\n>>>" + host, "Yhaa!Admin page found!")
                 raw_input("Press enter to continue scanning.\n")
             elif response.status == 404:
                 var2 = var2
             elif response.status == 302:
-                print "%s %s" % ("\n>>>" + host, "Possible admin page (302 - Redirect)")
+                print "%s %s" % ("\n>>>" + host, "Opps!Possible admin page (302 - Redirect)")
+            elif response.status == 400:
+                print "%s %s" % ("\n>>>" + host, "The server could not understand the request due to invalid syntax.(400 - Bad Request)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The client does not have access rights to the content. (403 - Forbidden)")
+            elif response.status == 302:
+                print "%s %s" % ("\n>>>" + host, "The server has encountered a situation it doesn't know how to handle. (500 - Internal Server Error)")
             else:
                 print "%s %s %s" % (host, " Interesting response:", response.status)
             connection.close()
